@@ -1,9 +1,107 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>PJharia</title>
+    <title>PJharia</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/script.js"></script>
 </head>
+
 <body>
-<h1>Prashant Kumar Jharia</h1>
+    <div id="radioBtn">
+        <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="customSwitch1"  onchange="myFunction(this)">
+            <label class="custom-control-label" for="customSwitch1">Dark mode</label>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <!-- <img class= "avatar" src="./avatar.jpg"> -->
+        <img class= "rounded-circle float-right" src="images/avatar.jpg">
+        <h1>Prashant Kumar Jharia</h1>
+        <h6>Software Developer</h6>
+        <h6>Bengaluru, Karnataka, India</h6>
+        <h6>prashantkumarjharia@gmail.com</h6>
+        <hr class="my-12"/>
+    </div>
+    <div class="container-fluid">
+        <div class="font-x-large">About me</div>
+        <p>I presently work as Software Developer with Harman International, India. With expertiese in design and development of Embedded System and Middleware application I have working experience in C++, Java and Android with good understanding of Linux and Android architecture.</br>I am highly motivated, creative engineer with experience in software design and development. In my professional carrier, I always look forward to develop fast, robust and safe automotive systems.
+        </p>
+    </div>
+
+    <div class="row container-fluid">
+        <div class="col-sm-3">
+            <div>
+                <div class="font-x-large">Skill</div>
+                <p>Android Automotive, Infotainment system</p>
+                <div class="font-x-large">Language</div>
+                <p>C, C++, Java and Android</p>
+            </div>
+        </div>
+        <div class="col-sm-9">
+            <div>
+                <div class="font-x-large">Work Experience</div></b>
+                <div class="lead">Harman International</div>
+                <div class="font-small font-bold">2 yrs 3 mos</div>
+                <div class="lead jobRole">Engineer II</div>
+                <div class="font-small">May 2018 - <span class="btn-info">Current</span></div>
+                <p>
+                * Developed application implementing IAP2 protocol in an Android environment.</br>
+                * Implemented gadget programing for CarPlay to establish a session.</br>
+                * Developed feature to establish communication for Apps installed on the Phone and HU.</br>
+                * Implemented unit testing for the component.</br>
+                </p>
+
+                <div class="lead jobRole">Engineer I</div>
+                <div class="font-small">May 2018 - Dec 2018</div>
+                <p>
+                * Worked on feature enhancement and bug fixing of CarPlay and AndroidAuto.</br>
+                * Involved in the development of module providing interface to Application on the phone to communicate with the Client Application on the HeadUnit.</br>
+                </p>
+
+                <div class="lead">Tata Elxsi</div>
+                <div class="font-small font-bold">3 yrs 3 mos</div>
+                <div class="lead jobRole">Sr. Engineer(on client location)</div>
+                <div class="font-small">Apr 2017 - May 2018</div>
+                <p>
+                * Involved in the development for component MOST-CAN Gateway.</br>
+                * Developed feature to route vehicle signals from CAN to media devices connected over MOST150 bus.</br>
+                * Implemented feature for providing diagnostics information of the media devices.</br>
+                * Implemented shared memory queue to achieved high frequency of routing messages from CAN to MOST.</br>
+                </p>
+                <div class="lead jobRole">Sr. Engineer</div>
+                <div class="font-small">May 2015 - Mar 2017</div>
+                <p>
+                * Taken responsibility for development of Bluetooth Telephony and Vehicle Control modules.</br>
+                * Developed connectivity and telephony control feature with contacts and call logs sharing.</br>
+                * Worked with open source libraries like Bluez, Ofono and Obex for bluetooth Protocol implementation.</br>
+                * Developed interfaces over DBus IPC for client applications to provide feature access.</br>
+                * Implemented feature to store contact information with their image on the platform.</br>
+                * Responsible for designing interfaces and developing scalable, low latency HVAC & Vehicle info component powered by Automotive Message Broker(AMB) and using Vehicle Signal Specifications (VSS).</br>
+                * Implemented plugin for AMB to support Vehicle Signal Interface (VSI) and get real time data.</br>
+                * Developed CAN bus support by using Socket CAN api’s for sending /receiving data over bus to/from ECU.</br>
+                * Implemented simulator for reading configuration and route data over CAN.</br>
+                </p>        
+
+                <div class="lead jobRole">Engineer</div>
+                <div class="font-small">Mar 2015 - Apr 2015</div>
+                <p>
+                * Developed a tool for automating testing of I2C driver that controls and configures the device.</br>
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer" style="text-align: center;margin:0; padding: 5px;">
+        &copy; 2020 Prashant Kumar Jharia
+    </div>
+
 </body>
+
 </html>
